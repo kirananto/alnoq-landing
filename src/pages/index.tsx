@@ -1,11 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -54,7 +49,6 @@ const docLinkStyle = {
 }
 
 const descriptionStyle = {
-  color: "#232129",
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
@@ -73,6 +67,10 @@ const docLinks = [
     color: "#8954A8",
   }
 ]
+
+const mainStyle = {
+  fontFamily: 'Space Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji'
+}
 
 const badgeStyle = {
   color: "#fff",
@@ -96,7 +94,7 @@ const links = [
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
+    color: "var",
   },
   {
     text: "How to Guides",
@@ -138,7 +136,7 @@ const links = [
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main style={pageStyles}>
+    <main className="bg-gray-900 p-64 text-yellow-50 antialiased" style={mainStyle}>
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -175,7 +173,7 @@ const IndexPage: React.FC<PageProps> = () => {
                   NEW!
                 </span>
               )}
-              <p style={descriptionStyle}>{link.description}</p>
+              <p style={descriptionStyle} className="text-gray-400">{link.description}</p>
             </span>
           </li>
         ))}
