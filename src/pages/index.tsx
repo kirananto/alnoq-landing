@@ -3,7 +3,6 @@ import type { HeadFC, PageProps } from "gatsby"
 import styled from "@emotion/styled"
 
 const StyledSpan = styled.span`
-  color:red;
   :after {
     content:"Monitor";
     animation: purpose 6s linear infinite;
