@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Alnoq-landing`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Alnoq | Multi-Tenant Alerts, Notifications, and Querying for SaaS Platforms`,
+    siteUrl: `https://www.alnoq.io`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
