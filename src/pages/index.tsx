@@ -26,20 +26,20 @@ const IndexPage: React.FC<PageProps> = () => {
         <div className="bg-[#150d12] w-8 h-8 grid place-content-center"><div className="rounded-full h-4 w-4 bg-orange-700"/></div>
       </nav>
       <section className="min-h-screen md:min-h-50 py-32 md:py-48 px-8 sm:px-32 lg:px-64 max-full grid place-content-center">
-        <h1 className="text-4xl md:text-5xl text-center text-orange-100 mt-16 w-full font-bold leading-6">
+        <h1 className="text-4xl md:text-5xl text-center text-orange-100 mt-16 w-full font-bold leading-normal">
           Now you can easily <StyledSpan className="text-orange-600 font-bolder underline " id="purpose" /> <div className="mt-2"/>Across All Your SaaS Tenants
           <br />
         </h1>
       </section>
       <section className="bg-orange-700 min-h-32 md:min-h-50 py-32 md:py-64 pl-8 sm:pl-32 md:pl-32 lg:pl-64 w-full">
-        <h2 className="text-3xl md:text-4xl max-w-6xl">You Generate tons of operational data, but how do you expose them to your customers and put them to use?</h2>
+        <h2 className="text-3xl md:text-4xl max-w-6xl pr-2">You Generate tons of operational data, but how do you expose them to your customers and put them to use?</h2>
       </section>
       <section className="min-h-48 md:min-h-50 py-32 md:py-64 pl-8 sm:pl-32 md:pl-32 lg:pl-64 max-w-6xl">
-        <h2 className="text-3xl md:text-4xl">Leave the Heavy Lifting to Us 💪 <br />Let Your Team Focus on Business Logic </h2>
-        <div className="text-3xl mt-6 text-orange-100 font-bold"> Meet <span className="text-orange-600 tracking-widest">ALNOQ</span> 👋</div>
+        <h2 className="text-3xl md:text-4xl pr-2">Leave the Heavy Lifting to Us 💪 <br />Let Your Team Focus on Business Logic </h2>
+        <div className="text-3xl mt-6 text-orange-100 font-bold pr-2"> Meet <span className="text-orange-600 tracking-widest">ALNOQ</span> 👋</div>
       </section>
       <section className="bg-orange-700 min-h-32 md:min-h-50 py-32 md:py-64 pl-8 sm:pl-32 md:pl-32 lg:pl-64 w-full text-right">
-        <h2 className="text-3xl md:text-4xl max-w-6xl">Alnoq helps you expose the operational data to your customers in your desired formats, get insights and set alerts on them. </h2>
+        <h2 className="text-3xl md:text-4xl max-w-6xl  pr-8 sm:pr-2">Alnoq helps you expose the operational data to your customers in your desired formats, get insights and set alerts on them. </h2>
       </section>
       <section className="min-h-64 md:min-h-50 py-32 md:py-64 pl-8 sm:pl-32 md:pl-32 lg:pl-64 max-w-6xl">
         <div>
