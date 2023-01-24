@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class WhyAlnoq extends Component {
     render() {
         return (
-            <section className="text-emerald-100  body-font px-8 sm:px-32 lg:px-64">
+            <section className="text-emerald-50  body-font px-8 sm:px-32 lg:px-64">
                 <div className="container py-24 pl-4 ">
                     <h1 className="sm:text-3xl text-2xl max-w-4xl font-bold title-font text-emerald-50 mb-4"><span className="tracking-widest font-bold text-emerald-600">ALNOQ </span> is designed ground up with SaaS thinking. We can get your customer facing analytics game to market in no-time!</h1>
                     <h2 className="text-4xl mb-8"> </h2>

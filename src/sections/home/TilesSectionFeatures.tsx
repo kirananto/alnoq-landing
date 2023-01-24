@@ -62,7 +62,7 @@ export default function TilesSectionFeatures() {
         <section className="text-emerald-100 body-font px-8 sm:px-32 lg:px-64">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex-col text-center w-full mb-20 grid justify-center">
-                    <h1 className="sm:text-3xl text-2xl font-bold max-w-4xl title-font text-green-50">Real time analytics for SaaS is not straight forward to build.  Especially so, if you are exposing it to your customers and partners.</h1>
+                    <h1 className="sm:text-3xl text-2xl font-bold max-w-4xl title-font text-green-50"><span className="text-emerald-600 font-bold">Real-time</span> analytics for SaaS is not straight forward to build.  Especially so, if you are exposing it to your customers and partners.</h1>
                 </div>
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-4">
                     {tiles.map(tile => (
