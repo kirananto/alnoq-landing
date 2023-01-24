@@ -31,7 +31,9 @@
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-sharp": "^5.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-tsparticles": "^2.8.0",
+    "tsparticles": "^2.8.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
