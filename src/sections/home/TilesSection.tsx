@@ -28,19 +28,19 @@ const tiles = [
 ]
 export default function TilesSection() {
     return (
-        <section className="text-orange-100 body-font">
+        <section className="text-emerald-100 body-font">
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-4">
                     {tiles.map(tile => (
                         <div className="p-4 md:w-1/3">
                             <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-50 p-8 flex-col">
                                 <div className="flex items-center mb-3">
-                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-orange-500 bg-opacity-20 text-orange-600 flex-shrink-0">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-emerald-500 bg-opacity-20 text-emerald-600 flex-shrink-0">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                                         </svg>
                                     </div>
-                                    <h2 className="text-orange-500 text-lg title-font font-bold">{tile.title}</h2>
+                                    <h2 className="text-emerald-500 text-lg title-font font-bold">{tile.title}</h2>
                                 </div>
                                 <div className="flex-grow">
                                     <p className="leading-relaxed text-base">{tile.description}</p>
