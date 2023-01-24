@@ -27,7 +27,7 @@ const mainStyle = {
 
 const IndexPage: React.FC<PageProps> = () => {
   return (<>
-    <main className="text-emerald-50 bg-[#0d1512] antialiased" style={mainStyle}>
+    <main className="text-emerald-50 bg-[#0a100e] antialiased" style={mainStyle}>
       <NavBar />
       <HeroSection />
       <section className="text-emerald-100 bg-emerald-700 body-font">
