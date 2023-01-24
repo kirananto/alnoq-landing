@@ -52,7 +52,7 @@ const tiles = [
 ]
 export default function TilesSection() {
     return (
-        <section className="text-emerald-100 body-font">
+        <section className="text-emerald-100 body-font px-8 sm:px-32 lg:px-64">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-4">
                     {tiles.map(tile => (
