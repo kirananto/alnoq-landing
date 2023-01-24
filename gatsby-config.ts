@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Alnoq | Multi-Tenant Alerts, Notifications, and Querying for SaaS Platforms`,
+    title: `ALNOQ | Expose realtime analytics capabilities on your data to your customers`,
     siteUrl: `https://www.alnoq.io`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -14,7 +14,6 @@ const config: GatsbyConfig = {
     // "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
-    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -25,10 +24,16 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('tailwindcss'), require('autoprefixer')]
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Space+Grotesk:wght@300;400;500;600` // you can also specify font weights and styles
+          `Space+Grotesk:wght@300;400;500;600;700;800` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
