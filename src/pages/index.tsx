@@ -4,6 +4,8 @@ import HeroSection from "../sections/home/HeroSection"
 import NavBar from "../components/NavBar"
 import TilesSection from "../sections/home/TilesSection"
 import Footer from "../components/Footer"
+import TilesSectionFeatures from "../sections/home/TilesSectionFeatures"
+import WhyAlnoq from "../sections/home/WhyAlnoq"
 // import styled from "@emotion/styled"
 // import { StaticImage } from "gatsby-plugin-image"
 
@@ -45,6 +47,8 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </div>
       </section>
+      <TilesSectionFeatures />
+      <WhyAlnoq />
       <Footer />
     </main>
   </>
