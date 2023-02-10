@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
             </svg>
             </h1>
-            <button className="flex-shrink-0 text-white bg-emerald-700 border-0 py-2 px-8 focus:outline-none hover:bg-emerald-600 rounded text-lg mt-10 sm:mt-0">Contact Us</button>
+            <a className="flex-shrink-0 text-white bg-emerald-700 border-0 py-2 px-8 focus:outline-none hover:bg-emerald-600 rounded text-lg mt-10 sm:mt-0"  href="mailto:yaser@alnoq.com">Contact Us</a>
           </div>
         </div>
       </section>
