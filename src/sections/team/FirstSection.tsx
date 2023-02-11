@@ -49,16 +49,16 @@ export default function FirstSection() {
         Previously @
         Wipro, Dexetra, Quixey, LookUp & NowFloats, Paytm, Esper
         `
-        },
-        {
-            name: 'Shiv Sundar',
-            title: 'CRO (Virtual)',
-            image: data.allFile.edges?.find((edge: any) => edge.node.name === 'shiv').node.childImageSharp,
-            description: `15+ years in GTM strategies to grow revenue and global market share.  
-        GTM scaling, revenue from 0 to 10 million$
-        GTM strategy for restaurant, retail, healthcare, connected fitness and payment (POS) vertical
-        `
-        }
+         }
+//         {
+//             name: 'Shiv Sundar',
+//             title: 'CRO (Virtual)',
+//             image: data.allFile.edges?.find((edge: any) => edge.node.name === 'shiv').node.childImageSharp,
+//             description: `15+ years in GTM strategies to grow revenue and global market share.  
+//         GTM scaling, revenue from 0 to 10 million$
+//         GTM strategy for restaurant, retail, healthcare, connected fitness and payment (POS) vertical
+//         `
+//         }
 
     ]
 
