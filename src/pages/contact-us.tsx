@@ -3,24 +3,23 @@ import type { HeadFC, PageProps } from "gatsby"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import FirstSection from "../sections/team/FirstSection"
-import SecondSection from "../sections/team/SecondSection"
+import FirstSectionContactUs from "../sections/ContactUs/FirstSectionContactUs"
 const mainStyle = {
   // background: '#18181b',
   fontFamily: 'Space Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji'
 }
 
-const IndexPage: React.FC<PageProps> = () => {
+const ContactUs: React.FC<PageProps> = () => {
   return (<>
     <main className="text-emerald-50 bg-[#0a100e] antialiased" style={mainStyle}>
       <NavBar />
-      <FirstSection />
-      <SecondSection />
+      <FirstSectionContactUs />
       <Footer />
     </main>
   </>
   )
 }
 
-export default IndexPage
+export default ContactUs
 
-export const Head: HeadFC = () => <title>About Us | ALNOQ </title>
+export const Head: HeadFC = () => <title>Contact Us | ALNOQ </title>
