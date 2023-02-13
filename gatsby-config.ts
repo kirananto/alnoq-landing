@@ -12,7 +12,6 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-emotion",
     // "gatsby-plugin-google-gtag",
-    "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -55,6 +54,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-sitemap",
   ]
 };
 

@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
 export default function NavBar() {
@@ -6,13 +7,10 @@ export default function NavBar() {
     <header className="text-emerald-50 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link to="/" className="flex title-font font-medium items-center text-emerald-50 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-emerald-700 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl tracking-widest font-bold">ALNOQ</span>
+            <StaticImage alt="icon" height={50} src="../images/icon.png" />
           </Link>
           <nav className="hidden md:mr-auto md:ml-6 md:py-1 md:pl-6 md:border-l md:border-gray-400	md:flex flex-wrap items-center text-base justify-center">
-            <Link to="/team" className="mr-5 hover:text-emerald-50">Team</Link>
+            <Link to="/team" activeClassName="underline underline-offset-4 text-emerald-500" className="mr-5 hover:text-emerald-500">Team</Link>
             {/* <a className="mr-5 hover:text-emerald-50">Company</a> */}
             {/* <a className="mr-5 hover:text-emerald-50">Pricing</a> */}
           </nav>

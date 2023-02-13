@@ -49,16 +49,16 @@ export default function FirstSection() {
         Previously @
         Wipro, Dexetra, Quixey, LookUp & NowFloats, Paytm, Esper
         `
-         }
-//         {
-//             name: 'Shiv Sundar',
-//             title: 'CRO (Virtual)',
-//             image: data.allFile.edges?.find((edge: any) => edge.node.name === 'shiv').node.childImageSharp,
-//             description: `15+ years in GTM strategies to grow revenue and global market share.  
-//         GTM scaling, revenue from 0 to 10 million$
-//         GTM strategy for restaurant, retail, healthcare, connected fitness and payment (POS) vertical
-//         `
-//         }
+        }
+        // {
+        //     name: 'Shiv Sundar',
+        //     title: 'CRO (Virtual)',
+        //     image: data.allFile.edges?.find((edge: any) => edge.node.name === 'shiv').node.childImageSharp,
+        //     description: `15+ years in GTM strategies to grow revenue and global market share.  
+        // GTM scaling, revenue from 0 to 10 million$
+        // GTM strategy for restaurant, retail, healthcare, connected fitness and payment (POS) vertical
+        // `
+        // }
 
     ]
 
@@ -76,7 +76,7 @@ export default function FirstSection() {
                         const image = teamMember.image.gatsbyImageData
                         console.log('image', image)
                         return (
-                            <div className="p-8 lg:w-1/4 md:w-1/2">
+                            <div className="p-8 lg:w-1/3 md:w-1/2">
                                 <div className="h-full flex flex-col items-center text-center">
                                     <GatsbyImage className="flex-shrink-0 rounded-full h-56 w-56 border-8 border-emerald-600 mb-8" image={image!} alt={teamMember.title} />
                                     <div className="w-full">
