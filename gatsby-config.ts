@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `ALNOQ | Expose realtime analytics capabilities on your data to your customers`,
-    siteUrl: `https://www.alnoq.io`
+    title: `ALNOQ | Unleash. Analytics`,
+    siteUrl: `https://www.alnoq.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -11,7 +11,17 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-emotion",
-    // "gatsby-plugin-google-gtag",
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `G-0PYLMJKVBK`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

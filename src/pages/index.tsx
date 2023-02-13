@@ -54,4 +54,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>ALNOQ | Expose realtime analytics capabilities on your data to your customers</title>
+export const Head: HeadFC = () => <title>ALNOQ | Unleash. Analytics</title>

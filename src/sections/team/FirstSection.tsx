@@ -1,7 +1,13 @@
+import styled from '@emotion/styled'
 import { graphql, useStaticQuery } from 'gatsby'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import React from 'react'
 
+const ImageComp = styled(GatsbyImage)`
+    img {
+        border-radius: 50%;
+    }
+`
 
 export default function FirstSection() {
     const data = useStaticQuery(graphql`query {
@@ -78,7 +84,7 @@ export default function FirstSection() {
                         return (
                             <div className="p-8 lg:w-1/3 md:w-1/2">
                                 <div className="h-full flex flex-col items-center text-center">
-                                    <GatsbyImage className="flex-shrink-0 rounded-full h-56 w-56 border-8 border-emerald-600 mb-8" image={image!} alt={teamMember.title} />
+                                    <ImageComp className="flex-shrink-0 object-cover overflow-hidden rounded-full h-56 w-56 border-8 border-emerald-600 mb-8" image={image!} alt={teamMember.title} />
                                     <div className="w-full">
                                         <h2 className="title-font font-medium text-lg text-emerald-50">{teamMember.title}</h2>
                                         <h3 className="text-gray-500 mb-3">{teamMember.name}</h3>

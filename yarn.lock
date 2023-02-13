@@ -5415,13 +5415,10 @@ gatsby-plugin-google-fonts@^1.0.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
   integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
 
-gatsby-plugin-google-gtag@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-5.4.0.tgz#3ba7f230e67dbdf5160e16c2e79bb94d0541c2cc"
-  integrity sha512-O++yAA0XENpcxy/rJtw5y0Rgqmbw/zE/oXPI/9szazXHukpD41kgWj56aWj/EOD3vlWK8ubjvxNyXdceHPb0xA==
-  dependencies:
-    "@babel/runtime" "^7.20.7"
-    minimatch "^3.1.2"
+gatsby-plugin-gtag@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gtag/-/gatsby-plugin-gtag-1.0.13.tgz#ffa08a728ba1cfe33090e52764d014a025a5d35a"
+  integrity sha512-Oul6O67klajrEjkkF1diD228SmyUWsAwTq/1tYq41vBwmyNiPk4dhk8K93rrNQ5d5zesSv+awBeGBa503tQqGw==
 
 gatsby-plugin-image@^3.4.0:
   version "3.4.0"

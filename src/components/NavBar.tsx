@@ -10,7 +10,7 @@ export default function NavBar() {
             <StaticImage alt="icon" height={50} src="../images/icon.png" />
           </Link>
           <nav className="hidden md:mr-auto md:ml-6 md:py-1 md:pl-6 md:border-l md:border-gray-400	md:flex flex-wrap items-center text-base justify-center">
-            <Link to="/team" activeClassName="underline underline-offset-4 text-emerald-500" className="mr-5 hover:text-emerald-500">Team</Link>
+            <Link to="/about-us" activeClassName="underline underline-offset-4 text-emerald-500" className="mr-5 hover:text-emerald-500">About Us</Link>
             {/* <a className="mr-5 hover:text-emerald-50">Company</a> */}
             {/* <a className="mr-5 hover:text-emerald-50">Pricing</a> */}
           </nav>

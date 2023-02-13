@@ -21,4 +21,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>ALNOQ Team </title>
+export const Head: HeadFC = () => <title>About Us | ALNOQ </title>
