@@ -66,7 +66,7 @@ export default function TilesSectionFeatures() {
                 </div>
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-4">
                     {tiles.map(tile => (
-                        <div className="p-4 md:w-1/3">
+                        <div className="p-4 sm:w-1/2 lg:w-1/3">
                             <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-50 p-8 flex-col">
                                 <div className="flex items-center mb-3">
                                     <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-emerald-500 bg-opacity-20 text-emerald-600 flex-shrink-0">

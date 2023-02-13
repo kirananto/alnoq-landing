@@ -6,6 +6,7 @@ import TilesSection from "../sections/home/TilesSection"
 import Footer from "../components/Footer"
 import TilesSectionFeatures from "../sections/home/TilesSectionFeatures"
 import WhyAlnoq from "../sections/home/WhyAlnoq"
+import { OutboundLink } from "gatsby-plugin-gtag"
 const mainStyle = {
   // background: '#18181b',
   fontFamily: 'Space Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji'
@@ -42,7 +43,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
             </svg>
             </h1>
-            <a className="flex-shrink-0 text-white bg-emerald-700 border-0 py-2 px-8 focus:outline-none hover:bg-emerald-600 rounded text-lg mt-10 sm:mt-0"  href="mailto:yaser@alnoq.com">Contact Us</a>
+            <OutboundLink href="https://9e9q886sx81.typeform.com/to/PZ5PJESu?utm_source=xxxxx&utm_medium=xxxxx&utm_campaign=xxxxx&utm_term=xxxxx&utm_content=xxxxx" className="flex-shrink-0 text-white bg-emerald-700 border-0 py-2 px-8 focus:outline-none hover:bg-emerald-600 rounded text-lg mt-10 sm:mt-0" >Contact Us</OutboundLink>
           </div>
         </div>
       </section>
@@ -54,4 +55,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>ALNOQ | Unleash. Analytics</title>
+export const Head: HeadFC = () => <title>ALNOQ | Unleash Analytics</title>

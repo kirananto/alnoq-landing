@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-gtag'
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
@@ -15,11 +16,11 @@ export default function NavBar() {
           {/* <a className="mr-5 hover:text-emerald-50">Company</a> */}
           {/* <a className="mr-5 hover:text-emerald-50">Pricing</a> */}
         </nav>
-        <a className="hidden cursor-pointer md:inline-flex items-center bg-emerald-700 invisible md:visible border-0 py-1 px-3 focus:outline-none hover:bg-emerald-600 rounded text-base mt-4 md:mt-0" href="mailto:yaser@alnoq.com">Contact us
+        <OutboundLink href="https://9e9q886sx81.typeform.com/to/PZ5PJESu?utm_source=xxxxx&utm_medium=xxxxx&utm_campaign=xxxxx&utm_term=xxxxx&utm_content=xxxxx" className="hidden cursor-pointer md:inline-flex items-center bg-emerald-700 invisible md:visible border-0 py-1 px-3 focus:outline-none hover:bg-emerald-600 rounded text-base mt-4 md:mt-0">Contact us
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </a>
+        </OutboundLink>
       </div>
     </header>
   )

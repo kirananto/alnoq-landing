@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `ALNOQ | Unleash. Analytics`,
+    title: `ALNOQ | Unleash Analytics`,
     siteUrl: `https://www.alnoq.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
