@@ -57,7 +57,7 @@ export default function SecondSection() {
 
                 <div className="container px-5 py-2 mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
-                        <h1 className="text-3xl font-bold title-font mb-4 text-emerald-50">#Meet Our Leadership Team</h1>
+                        <h1 className="text-3xl font-bold title-font mb-4 text-gray-700 dark:text-emerald-50">#Meet Our Leadership Team</h1>
                        </div>
 
                 </div>
@@ -70,9 +70,9 @@ export default function SecondSection() {
                                 <div className="h-full flex flex-col items-center text-center">
                                     <ImageComp className="flex-shrink-0 object-cover overflow-hidden rounded-full h-56 w-56 border-8 border-emerald-600 mb-8" image={image!} alt={teamMember.title} />
                                     <div className="w-full">
-                                        <h2 className="title-font font-medium text-lg text-emerald-50">{teamMember.title}</h2>
-                                        <h3 className="text-gray-500 mb-3">{teamMember.name}</h3>
-                                        <p className="mb-4">{teamMember.description}.</p>
+                                        <h2 className="title-font font-medium text-lg text-gray-700 dark:text-emerald-50">{teamMember.title}</h2>
+                                        <h3 className="dark:text-gray-500 text-gray-600 mb-3">{teamMember.name}</h3>
+                                        <p className="mb-4 text-gray-500 dark:text-emerald-100">{teamMember.description}.</p>
                                         <span className="inline-flex">
                                             <OutboundLink href={teamMember.linkedIn} className="ml-2 text-gray-500">
                                                 <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">

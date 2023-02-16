@@ -14,7 +14,7 @@ export default function HeroSection() {
   return (
     <section className="relative py-4 pb-48 md:py-48 px-8 sm:px-32 lg:px-64 max-full grid content-center">
       <Particles init={particlesInit} options={{...particlesOptions, style: { position: 'absolute' } }} />
-      <h1 className="text-4xl md:text-5xl text-emerald-50  max-w-2xl font-bold leading-normal">
+      <h1 className="text-4xl md:text-5xl text-gray-700 dark:text-emerald-50  max-w-2xl font-bold leading-normal">
         Expose <span className="text-emerald-600">realtime analytics </span>capabilities on your data to your customers
       </h1>
       <p className="max-w-2xl mt-4">

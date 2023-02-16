@@ -11,6 +11,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-emotion",
+    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-plugin-gtag`,
       options: {

@@ -59,23 +59,23 @@ const tiles = [
 ]
 export default function TilesSectionFeatures() {
     return (
-        <section className="text-emerald-100 body-font px-8 sm:px-32 lg:px-64">
+        <section className="text-emerald-100 body-font px-8 sm:px-32 lg:px-64 shadow-xl">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex-col text-center w-full mb-20 grid justify-center">
-                    <h1 className="sm:text-3xl text-2xl font-bold max-w-4xl title-font text-green-50"><span className="text-emerald-600 font-bold">Real-time</span> analytics for SaaS is not straight forward to build.  Especially so, if you are exposing it to your customers and partners.</h1>
+                    <h1 className="sm:text-3xl text-2xl font-bold max-w-4xl title-font text-gray-700 dark:text-emerald-50"><span className="text-emerald-600 font-bold">Real-time</span> analytics for SaaS is not straight forward to build.  Especially so, if you are exposing it to your customers and partners.</h1>
                 </div>
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-4">
                     {tiles.map(tile => (
                         <div className="p-4 sm:w-1/2 lg:w-1/3">
-                            <div className="flex rounded-lg h-full bg-gray-800 bg-opacity-50 p-8 flex-col">
+                            <div className="flex rounded-lg h-full bg-gray-200 dark:bg-gray-800 bg-opacity-50 p-8 flex-col">
                                 <div className="flex items-center mb-3">
                                     <div className="w-8 h-8 p-2 mr-3 inline-flex items-center justify-center rounded-full bg-emerald-500 bg-opacity-20 text-emerald-600 flex-shrink-0">
                                         {tile.icon}
                                     </div>
-                                    <h2 className="text-emerald-500 text-lg title-font font-bold">{tile.title}</h2>
+                                    <h2 className="text-gray-700 dark:text-emerald-500 text-lg title-font font-bold">{tile.title}</h2>
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-base">{tile.description}</p>
+                                    <p className="leading-relaxed text-gray-600 dark:text-emerald-100 text-base">{tile.description}</p>
 
                                 </div>
                             </div>

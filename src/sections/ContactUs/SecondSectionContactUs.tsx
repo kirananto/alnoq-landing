@@ -11,13 +11,13 @@ export default function SecondSectionContactUs() {
                         <div className='w-full sm:w-1/2'>
                         For business inquiries
                         <br />
-                        please email us at sales@alnoq.com.
+                        please email us at <a className="underline" href="mailto:sales@alnoq.com">sales@alnoq.com.</a>
                         <br />
                         </div>
                         <div className='w-full sm:w-1/2 mt-8 sm:mt-0'>
                         For technical support
                         <br />
-                        please email us at contact@alnoq.com.
+                        please email us at <a className="underline" href="mailto:contact@alnoq.com">contact@alnoq.com.</a>
                         </div>
                     </p>
                 </div>

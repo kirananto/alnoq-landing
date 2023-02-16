@@ -13,7 +13,7 @@ const mainStyle = {
 
 const ContactUs: React.FC<PageProps> = () => {
   return (<>
-    <main className="text-emerald-50 bg-[#0a100e] antialiased" style={mainStyle}>
+    <main className="text-gray-700 dark:text-emerald-50 bg-emerald-50 dark:bg-[#0a100e] antialiased" style={mainStyle}>
       <NavBar />
       <FirstSectionContactUs />
       <Widget id="PZ5PJESu" style={{ fontSize: 20 }} className="h-[40rem]">
