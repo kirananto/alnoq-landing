@@ -2,8 +2,9 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
-import FirstSection from "../sections/team/FirstSection"
-import SecondSection from "../sections/team/SecondSection"
+import FirstSection from "../sections/AboutUs/FirstSection"
+import SecondSection from "../sections/AboutUs/SecondSection"
+import AdvisorsSection from "../sections/AboutUs/AdvisorsSection"
 const mainStyle = {
   // background: '#18181b',
   fontFamily: 'Space Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji'
@@ -15,6 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <NavBar />
       <FirstSection />
       <SecondSection />
+      <AdvisorsSection />
       <Footer />
     </main>
   </>
